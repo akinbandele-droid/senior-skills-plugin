@@ -1,0 +1,30 @@
+{
+  "name": "senior-skills",
+  "version": "1.0.0",
+  "description": "A suite of 24 senior-level skills spanning the full software lifecycle: engineering, data & databases, AI, three flavors of design, DevOps, QA, technical writing, and a complete security discipline (review, cloud security, SOC/blue-team, GRC, incident response, OSINT recon, and authorized pentesting of web/API/mobile). Each skill is a lean SKILL.md plus on-demand reference files, cross-linked into one coherent system.",
+  "author": {
+    "name": "Nexora"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "software-engineering",
+    "data-engineering",
+    "databases",
+    "sql",
+    "ai-engineering",
+    "ui-ux-design",
+    "web-design",
+    "graphic-design",
+    "devops",
+    "cloud-security",
+    "qa-testing",
+    "technical-writing",
+    "security-review",
+    "pentest",
+    "incident-response",
+    "grc",
+    "soc",
+    "osint"
+  ]
+}

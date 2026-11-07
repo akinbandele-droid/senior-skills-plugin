@@ -1,0 +1,31 @@
+{
+  "name": "nexora-skills",
+  "owner": {
+    "name": "Nexora"
+  },
+  "metadata": {
+    "description": "A marketplace for the senior-skills plugin: 24 cross-linked, senior-level Claude Code skills covering build, data, design, ship, secure, and verify.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "senior-skills",
+      "source": "./plugins/senior-skills",
+      "description": "24 senior-level skills: software-engineering, data-engineering, data-analyst, ai-engineering, the database family (design/sql/admin/security), ui-ux/web/graphic design, devops-infra, cloud-security, qa-testing, technical-writing, and the security suite (security-review, cyber-security-analyst, grc-analyst, incident-response, osint-recon, pentest, web-pentest, api-pentest, mobile-pentest). Security-testing skills are authorization-gated.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "software-engineering",
+        "databases",
+        "security",
+        "pentest",
+        "data",
+        "design",
+        "devops",
+        "ai",
+        "grc"
+      ]
+    }
+  ]
+}
