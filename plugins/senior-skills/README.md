@@ -8,7 +8,7 @@ principles) plus `references/` files loaded on demand for depth.
 > These auto-trigger when a task matches, or invoke one explicitly with
 > `/<skill-name>`. They live in `~/.claude/skills/`.
 
-## The skills (24)
+## The skills (25)
 
 ### Build & engineer
 
@@ -91,6 +91,11 @@ hardening & guardrails, posture and detection. (Design & review.)
 Quality assurance with rigor — test strategy & the pyramid, case design, automation,
 exploratory & non-functional testing, bug reporting.
 **References:** test-strategy · test-design · automation · exploratory-and-nonfunctional · bug-reporting
+
+#### 🧪 advanced-software-testing
+Testing beyond basics — property-based/metamorphic/model-based, mutation testing & fuzzing,
+integration/contract/E2E, performance/load & chaos, test architecture, and testing in CI/CD.
+**References:** advanced-techniques · fault-based-testing · integration-and-e2e · performance-and-resilience · test-architecture · ci-cd-testing
 
 #### 📝 technical-writing
 Clear, accurate docs that serve the reader — READMEs, API reference, guides, design
@@ -178,8 +183,9 @@ interception, local data/secrets, platform controls, backend. (Authorization-gat
   (run it in production: backup, HA, tuning), and `database-security` (harden it). They
   sit under `data-engineering` for deep database work and connect to `cloud-security`,
   `devops-infra`, and `incident-response`.
-- **Verify & document:** `qa-testing` for test strategy and non-functional quality;
-  `technical-writing` to document what's built.
+- **Verify & document:** `qa-testing` for test strategy and non-functional quality, with
+  `advanced-software-testing` for the deeper techniques (property/mutation/fuzz, E2E,
+  performance/chaos) and testing throughout CI/CD; `technical-writing` to document what's built.
 - **Ship & operate:** `devops-infra` for CI/CD, IaC, deploy, and observability;
   `cloud-security` to secure the environment it runs in.
 - **Secure, defend & govern:** `security-review` inspects code/design before shipping;

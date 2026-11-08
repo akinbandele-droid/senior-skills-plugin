@@ -1,17 +1,17 @@
 # Senior Skills — Claude Code plugin
 
-A single installable plugin bundling **24 senior-level, cross-linked skills** that cover the
+A single installable plugin bundling **25 senior-level, cross-linked skills** that cover the
 full lifecycle of designing, building, shipping, securing, and verifying software and data.
 
 This repository is also a **plugin marketplace** (one plugin: `senior-skills`).
 
-## What's inside (24 skills)
+## What's inside (25 skills)
 
 **Build & engineer:** `software-engineering` · `data-engineering` · `data-analyst` · `ai-engineering`
 **Databases:** `database-design` · `sql-development` · `database-administration` · `database-security`
 **Design:** `ui-ux-design` · `web-design` · `graphic-design`
 **Ship & operate:** `devops-infra` · `cloud-security`
-**Quality & docs:** `qa-testing` · `technical-writing`
+**Quality & docs:** `qa-testing` · `advanced-software-testing` · `technical-writing`
 **Secure, defend & govern:** `security-review` · `cyber-security-analyst` · `grc-analyst` · `incident-response` · `osint-recon` · `pentest` · `web-pentest` · `api-pentest` · `mobile-pentest`
 
 Each skill is a lean `SKILL.md` (core workflow + principles) plus `references/*.md` loaded on
